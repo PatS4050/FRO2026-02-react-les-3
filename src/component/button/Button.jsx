@@ -1,5 +1,5 @@
 import './button.css'
-import React from 'react';
+import React, { useState } from 'react';
 
 //
 // function Button (props) {
@@ -17,6 +17,6 @@ function Button ({ label, logText, name, disabled }) {
         console.log(e)
     }
     return (
-    <button type="button" name={name} onClick={() => buttonClick(logText)} disabled={false} >{label}</button>
+    <button type="button" name={name} onClick={() => buttonClick(logText)} disabled={ false } >{label}</button>
     )}
 export default Button
