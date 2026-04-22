@@ -9,14 +9,14 @@ import React, { useState } from 'react';
 
 
 
+›
 
 
-
-function Button ({ label, logText, name, disabled }) {
+function Button ({ label, logText, name, isDisabled }) {
     function buttonClick(e) {
         console.log(e)
     }
     return (
-    <button type="button" name={name} onClick={() => buttonClick(logText)} disabled={ false } >{label}</button>
+    <button type="button" name={name} onClick={() => buttonClick(logText)} disabled={ isDisabled } >{label}</button>
     )}
 export default Button
