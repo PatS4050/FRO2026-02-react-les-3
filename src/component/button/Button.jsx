@@ -9,7 +9,6 @@ import React, { useState } from 'react';
 
 
 
-›
 
 
 function Button ({ label, logText, name, isDisabled }) {
